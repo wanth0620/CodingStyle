@@ -1,8 +1,6 @@
-# CodingStyle
+# Python
 
-## Python
-
-### Naming
+## Naming
 > If object is internal, which means can only used in modules (filename)
 > or private or protected in class, use '_' as prefix.
 
@@ -20,7 +18,7 @@
   * Global/Class Constants
 
 
-#### Function Naming
+### Function Naming
 Function is action, should always start with a verb.
 
 
@@ -36,7 +34,7 @@ Function is action, should always start with a verb.
   * cancel(取消)
   * dismiss(忽略)
 
-### Linter
+## Linter
 
 Please use flake8 package.
 
@@ -48,6 +46,10 @@ vim ~/.config/flake8
 max-line-length = 96
 ```
 
-## Reference
+---
+
+**Reference**
+
 [Google Codin Style Reference](https://tw-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/contents.html)
+
 [The use of verb](https://github.com/EngTW/English-for-Programmers)
